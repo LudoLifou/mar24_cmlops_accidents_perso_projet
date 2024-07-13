@@ -1,5 +1,5 @@
 import pytest
-from api import predict
+from src.api.api import predict
 
 def test_predict():
     features_4_prediction = {'place':10,
