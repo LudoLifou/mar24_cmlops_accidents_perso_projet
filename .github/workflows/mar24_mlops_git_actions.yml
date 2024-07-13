@@ -2,7 +2,6 @@ name: Train ML Model
 
 on:
   push:
-    branches: [ "features_FastAPI" ]
   pull_request:
     branches: [ "master" ]
 
