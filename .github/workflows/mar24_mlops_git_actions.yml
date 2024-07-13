@@ -63,7 +63,7 @@ jobs:
     - name: test de l'API
       run: |        
         pytest ./src/api/test_api_fonction.py
-        pytest ./src/api/test_api_serveur.py
+        pytest ./src/api/test_api_serveur_v02.py
         
   build-docker-image:
     runs-on: ubuntu-latest
